@@ -410,7 +410,6 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url(people/blue\ background.jpg);
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #041e42;
@@ -428,8 +427,24 @@ body {
     color: #818ea0;
 }
 
-#newsletter p {
-    color: #0fd512;
+#newsletter p span {
+    color: #ffbd27;
+}
+
+#newsletter input {
+    height: 3.12rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+}
+
+#newsletter button {
+    background-color: #088178;
+    color: #fff;
+    white-space: nowarp;
 }
 
 
