@@ -324,11 +324,11 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: url(people/back\ 1.jpg);
-    min-width: 670px;
+    min-width: 540px;
     height: 50vh;
     background-size: cover;
     background-position: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 #sm-banner .banner-box-2 {
@@ -364,6 +364,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 80px;
+    padding-bottom: 20px;
     
 }
 
@@ -373,7 +374,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: url(people/back\ 4.jpg);
-    min-width: 430px;
+    min-width: 320px;
     height: 30vh;
     background-size: cover;
     background-position: center;
@@ -411,9 +412,13 @@ body {
     flex-wrap: wrap;
     align-items: center;
     background-image: url(people/blue\ background.jpg);
+    /* background-image: url("image home page/wilber-1.jpg"); */
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #041e42;
+    padding: 45px 20px;
+    text-align: center;
 }
 
 #newsletter h4 {
