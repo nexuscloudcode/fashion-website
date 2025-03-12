@@ -305,7 +305,7 @@ body {
 }
 
 #banner h2 span {
-    color: #ef3636;
+    color: #ef8936;
 }
 #banner button:hover {
     background: #088178;
@@ -433,8 +433,24 @@ body {
     color: #818ea0;
 }
 
-#newsletter p {
-    color: #0fd512;
+#newsletter p span {
+    color: #ffbd27;
+}
+
+#newsletter input {
+    height: 3.12rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+}
+
+#newsletter button {
+    background-color: #088178;
+    color: #fff;
+    white-space: nowarp;
 }
 
 
